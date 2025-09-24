@@ -47,7 +47,7 @@ st.write("""
 I'm an **AI student** with hands-on internship experience at **Ramco Cements**, where I built real-time cement bag counting and forecasting systems.  
 I specialize in building AI pipelines using Python, ML, Computer Vision, and Prompt Engineering.
 """)
-with open("assets/Shenbaga_Ganeshan_Resume.pdf", "rb") as pdf_file:
+with open("assets/ganesh_Resume.pdf", "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
 st.download_button(
