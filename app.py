@@ -63,12 +63,12 @@ st.download_button(
 # ----- Skills -----
 st.subheader("💻 Technical Skills")
 st.write("""
- Programming Languages: Python, Java, SQL, HTML
- AI/ML: Machine Learning, Deep Learning, Prompt Engineering
- Computer Vision: OpenCV, YOLOv8, PyQt5
- Frameworks &amp;amp; Libraries: Flask, Pandas, NumPy, Scikit-learn
- Databases: SQL Server
- Tools: Power BI, Git
+* **Programming Languages:** Python, Java, SQL, HTML
+* **AI/ML:** Machine Learning, Deep Learning, Prompt Engineering
+* **Computer Vision:** OpenCV, YOLOv8, PyQt5
+* **Frameworks & Libraries:** Flask, Pandas, NumPy, Scikit-learn
+* **Databases:** SQL Server
+* **Tools:** Power BI, Git
 """)
 
 # ----- Projects Carousel -----
