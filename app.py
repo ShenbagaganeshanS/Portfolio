@@ -49,13 +49,13 @@ Data Science and AI Developer intern with hands-on experience in Python, SQL, Ma
  Seeking opportunities as a Data Analyst / Machine Learning Engineer to apply technical expertise and deliver impactful AI-driven
  solutions.
 """)
-with open("assets/ganesh_resume.pdf", "rb") as pdf_file:
+with open("assets/shenbagaganeshan.pdf", "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
 st.download_button(
     label="📄 Download My Resume",
     data=PDFbyte,
-    file_name="ganesh_resume.pdf",
+    file_name="shenbagaganeshan.pdf",
     mime='application/octet-stream'
 )
 
