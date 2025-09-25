@@ -53,7 +53,7 @@ with open("assets/ganesh_Resume.pdf", "rb") as pdf_file:
 st.download_button(
     label="📄 Download My Resume",
     data=PDFbyte,
-    file_name="Shenbaga_Ganeshan_Resume.pdf",
+    file_name="ganesh_resume.pdf",
     mime='application/octet-stream'
 )
 
