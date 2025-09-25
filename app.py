@@ -44,8 +44,10 @@ st_lottie(lottie_ai, height=300, key="ai")
 # ----- About Me -----
 st.subheader("👨‍💼 About Me")
 st.write("""
-I'm an **AI student** with hands-on internship experience at **Ramco Cements**, where I built real-time cement bag counting and forecasting systems.  
-I specialize in building AI pipelines using Python, ML, Computer Vision, and Prompt Engineering.
+Data Science and AI Developer intern with hands-on experience in Python, SQL, Machine Learning, Deep Learning, Computer Vision
+ and Prompt Engineering. Skilled in building real-time data pipelines, predictive models, dashboards and systematized systems.
+ Seeking opportunities as a Data Analyst / Machine Learning Engineer to apply technical expertise and deliver impactful AI-driven
+ solutions.
 """)
 with open("assets/ganesh_resume.pdf", "rb") as pdf_file:
     PDFbyte = pdf_file.read()
@@ -59,14 +61,14 @@ st.download_button(
 
 
 # ----- Skills -----
-st.subheader("💻 Skills")
+st.subheader("💻 Technical Skills")
 st.write("""
-- Python 🐍  
-- Java (Basic) ☕  
-- SQL 🗃️  
-- Prompt Engineering 🧠  
-- OpenCV, YOLOv8  
-- Streamlit, Flask
+ Programming Languages: Python, Java, SQL, HTML
+ AI/ML: Machine Learning, Deep Learning, Prompt Engineering
+ Computer Vision: OpenCV, YOLOv8, PyQt5
+ Frameworks &amp;amp; Libraries: Flask, Pandas, NumPy, Scikit-learn
+ Databases: SQL Server
+ Tools: Power BI, Git
 """)
 
 # ----- Projects Carousel -----
